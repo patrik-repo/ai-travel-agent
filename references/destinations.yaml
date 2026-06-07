@@ -1,0 +1,1497 @@
+# Destination Knowledge Base — 92 destinations, 34 countries
+# Pre-researched profiles with real prices, vibe ratings, and personality.
+# Load FIRST. Live web research only for destinations not listed here.
+
+destinations:
+
+  # ═══════════════ GREECE ═══════════════
+  - city: Kreta
+    country: Griechenland
+    airport: HER
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h30", typical_person: 250 }
+    hotel_4star: 110
+    hotel_5star: 200
+    food: { street: "€4-6", restaurant_pp: "€12-18", beer: "€3-4" }
+    family: 9
+    teen: 4
+    insta: 8
+    nightlife: 3
+    vibe: ruhe
+    notes: "Weltklasse-Strände, flach für Kids. Abends tot. Mietwagen Pflicht."
+
+  - city: Rhodos
+    country: Griechenland
+    airport: RHO
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h50", typical_person: 230 }
+    hotel_4star: 100
+    hotel_5star: 180
+    food: { street: "€4-7", restaurant_pp: "€12-18", beer: "€3-4" }
+    family: 8
+    teen: 6
+    insta: 7
+    nightlife: 6
+    vibe: mix
+    notes: "Altstadt (UNESCO) + Strände. Mix aus Kultur & Baden. Gutes Mittelding."
+
+  - city: Kos
+    country: Griechenland
+    airport: KGS
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h40", typical_person: 220 }
+    hotel_4star: 90
+    hotel_5star: 160
+    food: { street: "€4-6", restaurant_pp: "€10-16", beer: "€3" }
+    family: 7
+    teen: 6
+    insta: 6
+    nightlife: 5
+    vibe: mix
+    notes: "Günstiger als Rhodos. Fahrrad-Insel. Entspannt, nicht überlaufen."
+
+  - city: Korfu
+    country: Griechenland
+    airport: CFU
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h10", typical_person: 210 }
+    hotel_4star: 95
+    hotel_5star: 170
+    food: { street: "€4-6", restaurant_pp: "€11-17", beer: "€3" }
+    family: 8
+    teen: 6
+    insta: 7
+    nightlife: 5
+    vibe: mix
+    notes: "Grünste Insel. Venezianische Architektur. Gut für Familien."
+
+  - city: Santorini
+    country: Griechenland
+    airport: JTR
+    category: strand
+    direct_zrh: false
+    flight: { duration: "3h30 (1 Stop)", typical_person: 300 }
+    hotel_4star: 180
+    hotel_5star: 400
+    food: { street: "€6-10", restaurant_pp: "€18-30", beer: "€5-6" }
+    family: 4
+    teen: 7
+    insta: 10
+    nightlife: 6
+    vibe: ruhe
+    notes: "Instagram-Paradies. Teuer, überlaufen, aber atemberaubend. Paare > Familien."
+
+  - city: Mykonos
+    country: Griechenland
+    airport: JMK
+    category: strand
+    direct_zrh: false
+    flight: { duration: "3h (1 Stop)", typical_person: 320 }
+    hotel_4star: 200
+    hotel_5star: 500
+    food: { street: "€8-12", restaurant_pp: "€20-35", beer: "€6-8" }
+    family: 3
+    teen: 8
+    insta: 10
+    nightlife: 10
+    vibe: action
+    notes: "Party-Insel #1. Teuer, glamourös. NICHTS für Familien."
+
+  - city: Athen
+    country: Griechenland
+    airport: ATH
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h30", typical_person: 200 }
+    hotel_4star: 90
+    hotel_5star: 180
+    food: { street: "€3-5", restaurant_pp: "€10-16", beer: "€3" }
+    family: 6
+    teen: 7
+    insta: 7
+    nightlife: 8
+    vibe: action
+    notes: "Akropolis, Plaka, Street-Food. Günstige Städtereise mit Geschichte."
+
+  # ═══════════════ TURKEY ═══════════════
+  - city: Antalya
+    country: Türkei
+    airport: AYT
+    category: strand
+    direct_zrh: true
+    flight: { duration: "3h10", typical_person: 220 }
+    hotel_4star: 90
+    hotel_5star: 170
+    food: { street: "€2-4", restaurant_pp: "€8-14", beer: "€2-3" }
+    family: 7
+    teen: 9
+    insta: 7
+    nightlife: 8
+    vibe: action
+    notes: "Aquaparks, Bazaar, Clubs. Teens lieben's. Günstiger als Griechenland."
+    wikipedia: "One of the largest cities in Turkey and the capital of Antalya Province. Recognized as the 'capital of tourism' in Turkey. Population ~1.3M. Known for its Roman harbor, beaches, and resort culture."
+
+  - city: Bodrum
+    country: Türkei
+    airport: BJV
+    category: strand
+    direct_zrh: true
+    flight: { duration: "3h", typical_person: 240 }
+    hotel_4star: 100
+    hotel_5star: 200
+    food: { street: "€3-5", restaurant_pp: "€10-16", beer: "€2-3" }
+    family: 6
+    teen: 8
+    insta: 8
+    nightlife: 9
+    vibe: action
+    notes: "Türkische Riviera. Schicker als Antalya. Beach-Clubs, Yachthafen."
+
+  - city: Istanbul
+    country: Türkei
+    airport: IST
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h50", typical_person: 200 }
+    hotel_4star: 80
+    hotel_5star: 160
+    food: { street: "€2-4", restaurant_pp: "€8-14", beer: "€2-3" }
+    family: 6
+    teen: 8
+    insta: 9
+    nightlife: 8
+    vibe: action
+    notes: "Zwei Kontinente. Bazaar, Moscheen, Street-Food. Günstig & spektakulär."
+
+  - city: Izmir
+    country: Türkei
+    airport: ADB
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h50", typical_person: 210 }
+    hotel_4star: 75
+    hotel_5star: 150
+    food: { street: "€2-4", restaurant_pp: "€8-14", beer: "€2" }
+    family: 7
+    teen: 7
+    insta: 6
+    nightlife: 7
+    vibe: mix
+    notes: "Ägäis-Perle. Ephesus nahe. Günstiger als Antalya, weniger touristisch."
+
+  - city: Alanya
+    country: Türkei
+    airport: GZP
+    category: strand
+    direct_zrh: true
+    flight: { duration: "3h15", typical_person: 200 }
+    hotel_4star: 70
+    hotel_5star: 140
+    food: { street: "€2-4", restaurant_pp: "€8-14", beer: "€2" }
+    family: 8
+    teen: 8
+    insta: 6
+    nightlife: 7
+    vibe: action
+    notes: "Burg überm Strand. Günstiger All-Inclusive-Hotspot. Viel Action. 💡 HACK: Flug nach Antalya (€253 direkt, 3h15) + 2h Bus (€10) ist VIEL billiger als Direktflug nach Gazipasa (€467+, 1 Stop). Google schlägt das selbst vor."
+
+  - city: Fethiye
+    country: Türkei
+    airport: DLM
+    category: strand
+    direct_zrh: true
+    flight: { duration: "3h", typical_person: 220 }
+    hotel_4star: 85
+    hotel_5star: 160
+    food: { street: "€2-4", restaurant_pp: "€8-14", beer: "€2" }
+    family: 7
+    teen: 7
+    insta: 8
+    nightlife: 6
+    vibe: mix
+    notes: "Türkis-Küste. Ölüdeniz-Lagune = Instagram. Paragliding-Hotspot."
+
+  # ═══════════════ EGYPT ═══════════════
+  - city: Hurghada
+    country: Ägypten
+    airport: HRG
+    category: strand
+    direct_zrh: true
+    flight: { duration: "4h", typical_person: 280 }
+    hotel_4star: 60
+    hotel_5star: 120
+    food: { street: "€2-4", restaurant_pp: "€6-12", beer: "€2-3" }
+    family: 8
+    teen: 8
+    insta: 6
+    nightlife: 6
+    vibe: action
+    notes: "All-Inclusive-Paradies. Rotes Meer = Taucher-Himmel. Sehr günstig vor Ort. ⚠️ Kein Direktflug ab ZRH: günstigster 1-Stop €341 (Pegasus via Istanbul, 9h45)."
+
+  - city: Sharm El Sheikh
+    country: Ägypten
+    airport: SSH
+    category: strand
+    direct_zrh: true
+    flight: { duration: "4h15", typical_person: 300 }
+    hotel_4star: 65
+    hotel_5star: 130
+    food: { street: "€2-4", restaurant_pp: "€6-12", beer: "€2-3" }
+    family: 8
+    teen: 7
+    insta: 7
+    nightlife: 6
+    vibe: mix
+    notes: "Wie Hurghada, etwas schicker. Top zum Schnorcheln/Tauchen."
+
+  - city: Kairo
+    country: Ägypten
+    airport: CAI
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "3h50", typical_person: 300 }
+    hotel_4star: 60
+    hotel_5star: 120
+    food: { street: "€1-3", restaurant_pp: "€5-10", beer: "€2" }
+    family: 5
+    teen: 7
+    insta: 9
+    nightlife: 5
+    vibe: action
+    notes: "Pyramiden, Museum, Chaos. Extrem günstig. Nichts für schwache Nerven."
+
+  - city: Marsa Alam
+    country: Ägypten
+    airport: RMF
+    category: strand
+    direct_zrh: true
+    flight: { duration: "4h20", typical_person: 310 }
+    hotel_4star: 65
+    hotel_5star: 130
+    food: { street: "€2-4", restaurant_pp: "€6-12", beer: "€2-3" }
+    family: 7
+    teen: 6
+    insta: 6
+    nightlife: 3
+    vibe: ruhe
+    notes: "Ruhiger als Hurghada. Taucher-Eldorado. Wenig los abends."
+
+  # ═══════════════ SPAIN ═══════════════
+  - city: Mallorca
+    country: Spanien
+    airport: PMI
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h45", typical_person: 160 }
+    hotel_4star: 140
+    hotel_5star: 280
+    food: { street: "€5-8", restaurant_pp: "€14-22", beer: "€3-4" }
+    family: 8
+    teen: 7
+    insta: 9
+    nightlife: 7
+    vibe: mix
+    notes: "DER Allrounder. Buchten, Berge, Altstadt, Party. Hochsaison = überlaufen."
+
+  - city: Barcelona
+    country: Spanien
+    airport: BCN
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h45", typical_person: 160 }
+    hotel_4star: 150
+    hotel_5star: 300
+    food: { street: "€5-8", restaurant_pp: "€14-25", beer: "€3-4" }
+    family: 7
+    teen: 9
+    insta: 10
+    nightlife: 9
+    vibe: action
+    notes: "Stadt+Strand+Gaudi. Für jeden was. Teuer aber lohnend."
+
+  - city: Costa del Sol
+    country: Spanien
+    airport: AGP
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h30", typical_person: 180 }
+    hotel_4star: 110
+    hotel_5star: 220
+    food: { street: "€5-8", restaurant_pp: "€12-20", beer: "€3" }
+    family: 8
+    teen: 7
+    insta: 7
+    nightlife: 7
+    vibe: mix
+    notes: "Malaga, Marbella, Torremolinos. 300 Sonnentage. Briten-Enklaven."
+
+  - city: Kanaren (Teneriffa)
+    country: Spanien
+    airport: TFS
+    category: strand
+    direct_zrh: true
+    flight: { duration: "4h20", typical_person: 280 }
+    hotel_4star: 100
+    hotel_5star: 200
+    food: { street: "€4-7", restaurant_pp: "€12-18", beer: "€2-3" }
+    family: 8
+    teen: 7
+    insta: 7
+    nightlife: 7
+    vibe: mix
+    notes: "GANZJAHRES-Ziel. 22°C im Winter. Vulkan Teide. Perfekt für Nebensaison."
+
+  - city: Madrid
+    country: Spanien
+    airport: MAD
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h15", typical_person: 170 }
+    hotel_4star: 120
+    hotel_5star: 250
+    food: { street: "€4-7", restaurant_pp: "€12-20", beer: "€2-3" }
+    family: 7
+    teen: 7
+    insta: 7
+    nightlife: 10
+    vibe: action
+    notes: "Kunst, Tapas, Nachtleben bis 6 Uhr. Günstiger als Barcelona."
+
+  - city: Ibiza
+    country: Spanien
+    airport: IBZ
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h55", typical_person: 200 }
+    hotel_4star: 180
+    hotel_5star: 400
+    food: { street: "€6-10", restaurant_pp: "€18-30", beer: "€5-7" }
+    family: 4
+    teen: 10
+    insta: 10
+    nightlife: 10
+    vibe: action
+    notes: "Party-Welthauptstadt. Teuer. NICHTS für Ruhe-Suchende."
+
+  # ═══════════════ ITALY ═══════════════
+  - city: Rom
+    country: Italien
+    airport: FCO
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h30", typical_person: 160 }
+    hotel_4star: 150
+    hotel_5star: 350
+    food: { street: "€4-7", restaurant_pp: "€15-25", beer: "€4-5" }
+    family: 7
+    teen: 8
+    insta: 10
+    nightlife: 7
+    vibe: action
+    notes: "Kolosseum, Vatikan, Pasta. Ewige Stadt. Im Sommer heiss & voll."
+
+  - city: Sardinien
+    country: Italien
+    airport: CAG
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h30", typical_person: 200 }
+    hotel_4star: 170
+    hotel_5star: 350
+    food: { street: "€5-8", restaurant_pp: "€18-30", beer: "€4-5" }
+    family: 6
+    teen: 3
+    insta: 10
+    nightlife: 4
+    vibe: ruhe
+    notes: "Traumstrände aber TEUER. Costa Smeralda = Luxus. Nichts für Teens."
+
+  - city: Sizilien (Palermo)
+    country: Italien
+    airport: PMO
+    category: strand
+    direct_zrh: false
+    flight: { duration: "3h (1 Stop)", typical_person: 130 }
+    hotel_4star: 100
+    hotel_5star: 200
+    food: { street: "€3-5", restaurant_pp: "€10-16", beer: "€2-3" }
+    family: 5
+    teen: 7
+    insta: 7
+    nightlife: 8
+    vibe: action
+    notes: "Roh & authentisch. Bestes Street-Food Europas. Chaotisch, günstig."
+
+  - city: Venedig
+    country: Italien
+    airport: VCE
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h10", typical_person: 150 }
+    hotel_4star: 180
+    hotel_5star: 400
+    food: { street: "€5-10", restaurant_pp: "€20-35", beer: "€5-6" }
+    family: 6
+    teen: 6
+    insta: 10
+    nightlife: 4
+    vibe: ruhe
+    notes: "Einzigartig, romantisch, TEUER. Im Sommer stickig & überlaufen."
+
+  - city: Florenz
+    country: Italien
+    airport: FLR
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h15", typical_person: 170 }
+    hotel_4star: 160
+    hotel_5star: 350
+    food: { street: "€4-8", restaurant_pp: "€15-25", beer: "€4-5" }
+    family: 6
+    teen: 6
+    insta: 10
+    nightlife: 5
+    vibe: ruhe
+    notes: "Renaissance pur. Kunst, Leder, Wein. Teuer aber atemberaubend."
+
+  - city: Puglia
+    country: Italien
+    airport: BRI
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h40", typical_person: 180 }
+    hotel_4star: 120
+    hotel_5star: 250
+    food: { street: "€4-6", restaurant_pp: "€12-20", beer: "€3-4" }
+    family: 7
+    teen: 5
+    insta: 8
+    nightlife: 4
+    vibe: ruhe
+    notes: "Italiens Geheimtipp. Trulli-Häuser, Olivenhaine, türkises Wasser. Ruhig."
+
+  # ═══════════════ PORTUGAL ═══════════════
+  - city: Lissabon
+    country: Portugal
+    airport: LIS
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h45", typical_person: 200 }
+    hotel_4star: 120
+    hotel_5star: 250
+    food: { street: "€3-5", restaurant_pp: "€10-18", beer: "€2" }
+    family: 7
+    teen: 7
+    insta: 9
+    nightlife: 8
+    vibe: action
+    notes: "Hügel, Tram, Pastéis de Nata. Günstig, charmant, super Essen."
+
+  - city: Porto
+    country: Portugal
+    airport: OPO
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h35", typical_person: 180 }
+    hotel_4star: 100
+    hotel_5star: 200
+    food: { street: "€3-5", restaurant_pp: "€10-16", beer: "€2" }
+    family: 6
+    teen: 6
+    insta: 8
+    nightlife: 7
+    vibe: mix
+    notes: "Portwein, Brücken, Azulejos. Günstiger als Lissabon, authentischer."
+
+  - city: Algarve
+    country: Portugal
+    airport: FAO
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h50", typical_person: 220 }
+    hotel_4star: 100
+    hotel_5star: 200
+    food: { street: "€4-6", restaurant_pp: "€10-18", beer: "€2" }
+    family: 8
+    teen: 7
+    insta: 8
+    nightlife: 6
+    vibe: mix
+    notes: "Felsen-Buchten, günstiger als Spanien. Golf-Hotspot. Familien-Favorit."
+
+  - city: Madeira
+    country: Portugal
+    airport: FNC
+    category: strand
+    direct_zrh: true
+    flight: { duration: "3h50", typical_person: 280 }
+    hotel_4star: 100
+    hotel_5star: 200
+    food: { street: "€4-6", restaurant_pp: "€12-18", beer: "€2" }
+    family: 7
+    teen: 5
+    insta: 8
+    nightlife: 3
+    vibe: ruhe
+    notes: "Blumeninsel, Levada-Wanderungen. Ganzjahres-Ziel. Nichts für Party."
+
+  - city: Azoren
+    country: Portugal
+    airport: PDL
+    category: strand
+    direct_zrh: false
+    flight: { duration: "5h (1 Stop)", typical_person: 350 }
+    hotel_4star: 90
+    hotel_5star: 180
+    food: { street: "€4-6", restaurant_pp: "€10-16", beer: "€2" }
+    family: 7
+    teen: 4
+    insta: 9
+    nightlife: 2
+    vibe: ruhe
+    notes: "Natur pur. Wale, Vulkane, Hydrangeas. Für Abenteurer, nicht Party."
+
+  # ═══════════════ CROATIA ═══════════════
+  - city: Split
+    country: Kroatien
+    airport: SPU
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h25", typical_person: 180 }
+    hotel_4star: 140
+    hotel_5star: 280
+    food: { street: "€5-8", restaurant_pp: "€14-20", beer: "€3-4" }
+    family: 7
+    teen: 7
+    insta: 8
+    nightlife: 7
+    vibe: mix
+    notes: "Altstadt (UNESCO) + Inselhopping. Euro machts teurer. Kiesstrände."
+
+  - city: Dubrovnik
+    country: Kroatien
+    airport: DBV
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h35", typical_person: 200 }
+    hotel_4star: 160
+    hotel_5star: 350
+    food: { street: "€6-10", restaurant_pp: "€16-25", beer: "€4-5" }
+    family: 6
+    teen: 7
+    insta: 10
+    nightlife: 5
+    vibe: mix
+    notes: "King's Landing. Teuer, überlaufen aber magisch. Game of Thrones Fans."
+
+  # ═══════════════ FRANCE ═══════════════
+  - city: Paris
+    country: Frankreich
+    airport: CDG
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h15", typical_person: 180 }
+    hotel_4star: 200
+    hotel_5star: 500
+    food: { street: "€6-10", restaurant_pp: "€20-35", beer: "€6-8" }
+    family: 7
+    teen: 8
+    insta: 10
+    nightlife: 8
+    vibe: action
+    notes: "Eiffelturm, Louvre, Croissants. TEUER. Aber jeder muss einmal hin."
+
+  - city: Côte d'Azur
+    country: Frankreich
+    airport: NCE
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h10", typical_person: 170 }
+    hotel_4star: 200
+    hotel_5star: 500
+    food: { street: "€8-12", restaurant_pp: "€20-40", beer: "€6-8" }
+    family: 6
+    teen: 6
+    insta: 10
+    nightlife: 8
+    vibe: action
+    notes: "Nizza, Cannes, St. Tropez. Glamour & Luxus. Budget-Sprenger."
+
+  - city: Marseille
+    country: Frankreich
+    airport: MRS
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h15", typical_person: 160 }
+    hotel_4star: 130
+    hotel_5star: 280
+    food: { street: "€5-8", restaurant_pp: "€14-25", beer: "€5-6" }
+    family: 6
+    teen: 7
+    insta: 7
+    nightlife: 7
+    vibe: action
+    notes: "Bouillabaisse, Calanques, multikulti. Rauer Charme. Günstiger als Nizza."
+
+  - city: Lyon
+    country: Frankreich
+    airport: LYS
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h", typical_person: 150 }
+    hotel_4star: 140
+    hotel_5star: 300
+    food: { street: "€5-8", restaurant_pp: "€16-28", beer: "€5-6" }
+    family: 6
+    teen: 5
+    insta: 6
+    nightlife: 6
+    vibe: mix
+    notes: "Frankreichs Food-Hauptstadt. Bouchons, Traboules. Für Geniesser."
+
+  - city: Bordeaux
+    country: Frankreich
+    airport: BOD
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h25", typical_person: 160 }
+    hotel_4star: 140
+    hotel_5star: 300
+    food: { street: "€5-8", restaurant_pp: "€16-28", beer: "€5-6" }
+    family: 5
+    teen: 5
+    insta: 7
+    nightlife: 6
+    vibe: ruhe
+    notes: "Wein, Architektur, Lebensart. Elegant & entspannt. Wein-Touren."
+
+  # ═══════════════ UK / IRELAND ═══════════════
+  - city: London
+    country: UK
+    airport: LHR
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h45", typical_person: 180 }
+    hotel_4star: 220
+    hotel_5star: 500
+    food: { street: "€8-12", restaurant_pp: "€18-30", beer: "€6-8" }
+    family: 7
+    teen: 9
+    insta: 9
+    nightlife: 9
+    vibe: action
+    notes: "Museen gratis, Rest teuer. Unendlich viel zu tun. Für jeden was."
+
+  # ═══════════════ CENTRAL EUROPE ═══════════════
+  - city: Prag
+    country: Tschechien
+    airport: PRG
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h15", typical_person: 140 }
+    hotel_4star: 90
+    hotel_5star: 180
+    food: { street: "€3-5", restaurant_pp: "€8-14", beer: "€1.50-2" }
+    family: 8
+    teen: 8
+    insta: 8
+    nightlife: 9
+    vibe: action
+    notes: "Günstig, schön, bestes Bier. Junggesellenabschiede satt. Altstadt UNESCO."
+
+  - city: Budapest
+    country: Ungarn
+    airport: BUD
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h30", typical_person: 150 }
+    hotel_4star: 85
+    hotel_5star: 170
+    food: { street: "€3-5", restaurant_pp: "€8-15", beer: "€2" }
+    family: 8
+    teen: 8
+    insta: 8
+    nightlife: 9
+    vibe: action
+    notes: "Thermalbäder, Ruin-Bars, Donau. Günstig & spektakulär. Party-Stadt."
+
+  - city: Wien
+    country: Österreich
+    airport: VIE
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h20", typical_person: 180 }
+    hotel_4star: 130
+    hotel_5star: 280
+    food: { street: "€4-7", restaurant_pp: "€14-22", beer: "€4" }
+    family: 8
+    teen: 5
+    insta: 7
+    nightlife: 5
+    vibe: ruhe
+    notes: "Kultur, Kaffeehäuser, imperialer Charme. Nicht billig, nicht wild."
+
+  - city: Berlin
+    country: Deutschland
+    airport: BER
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h20", typical_person: 150 }
+    hotel_4star: 110
+    hotel_5star: 220
+    food: { street: "€4-7", restaurant_pp: "€10-18", beer: "€3-4" }
+    family: 7
+    teen: 9
+    insta: 7
+    nightlife: 10
+    vibe: action
+    notes: "Geschichte, Clubs, Street-Art. Immer noch günstiger als London/Paris."
+
+  - city: Amsterdam
+    country: Niederlande
+    airport: AMS
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h35", typical_person: 170 }
+    hotel_4star: 180
+    hotel_5star: 400
+    food: { street: "€6-8", restaurant_pp: "€16-25", beer: "€5" }
+    family: 6
+    teen: 8
+    insta: 8
+    nightlife: 8
+    vibe: action
+    notes: "Gracien, Museen, Coffeeshops. Teuer aber einzigartig."
+
+  # ═══════════════ EASTERN EUROPE / BALKANS ═══════════════
+  - city: Montenegro (Kotor/Budva)
+    country: Montenegro
+    airport: TGD
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h40", typical_person: 180 }
+    hotel_4star: 80
+    hotel_5star: 150
+    food: { street: "€3-5", restaurant_pp: "€8-14", beer: "€2" }
+    family: 7
+    teen: 6
+    insta: 9
+    nightlife: 5
+    vibe: mix
+    notes: "Bucht von Kotor = atemberaubend. Günstig, noch nicht überlaufen."
+
+  - city: Albanien (Saranda/Ksamil)
+    country: Albanien
+    airport: TIA
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h", typical_person: 160 }
+    hotel_4star: 60
+    hotel_5star: 120
+    food: { street: "€2-3", restaurant_pp: "€6-10", beer: "€1.50" }
+    family: 6
+    teen: 5
+    insta: 6
+    nightlife: 4
+    vibe: ruhe
+    notes: "DAS Billigziel Europas. Strände top, Infrastruktur okay. Rasant entwickelnd."
+
+  - city: Tirana
+    country: Albanien
+    airport: TIA
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h", typical_person: 150 }
+    hotel_4star: 55
+    hotel_5star: 110
+    food: { street: "€2-3", restaurant_pp: "€5-10", beer: "€1.50" }
+    family: 5
+    teen: 6
+    insta: 5
+    nightlife: 7
+    vibe: action
+    notes: "Bunt, chaotisch, im Wandel. Bunkermuseum, coole Bars. SPOTTBILLIG."
+
+  - city: Durres
+    country: Albanien
+    airport: TIA
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h", typical_person: 150 }
+    hotel_4star: 50
+    hotel_5star: 100
+    food: { street: "€2-3", restaurant_pp: "€5-8", beer: "€1.50" }
+    family: 7
+    teen: 5
+    insta: 4
+    nightlife: 5
+    vibe: mix
+    notes: "Stadtstrand nah an Tirana. Amphitheater. Günstigster Sandstrand Europas."
+
+  - city: Vlora
+    country: Albanien
+    airport: TIA
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h10", typical_person: 160 }
+    hotel_4star: 55
+    hotel_5star: 110
+    food: { street: "€2-3", restaurant_pp: "€5-10", beer: "€1.50" }
+    family: 7
+    teen: 5
+    insta: 6
+    nightlife: 4
+    vibe: ruhe
+    notes: "Wo Adria und Ionisches Meer sich treffen. Unberührt, ruhig, günstig."
+
+  - city: Bulgarien (Sunny Beach)
+    country: Bulgarien
+    airport: BOJ
+    category: strand
+    direct_zrh: false
+    flight: { duration: "3h (1 Stop)", typical_person: 160 }
+    hotel_4star: 55
+    hotel_5star: 100
+    food: { street: "€2-3", restaurant_pp: "€5-10", beer: "€1.50" }
+    family: 6
+    teen: 7
+    insta: 4
+    nightlife: 8
+    vibe: action
+    notes: "Party + billig. Ballermann des Ostens. Nichts für Kultur-Fans."
+
+  - city: Ljubljana
+    country: Slowenien
+    airport: LJU
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h05", typical_person: 160 }
+    hotel_4star: 100
+    hotel_5star: 200
+    food: { street: "€4-6", restaurant_pp: "€10-16", beer: "€2.50" }
+    family: 7
+    teen: 5
+    insta: 7
+    nightlife: 5
+    vibe: ruhe
+    notes: "Klein, grün, charmant. Tagesausflug Bleder See. Entspannt."
+
+  # ═══════════════ CYPRUS / MALTA ═══════════════
+  - city: Zypern
+    country: Zypern
+    airport: LCA
+    category: strand
+    direct_zrh: true
+    flight: { duration: "3h30", typical_person: 260 }
+    hotel_4star: 130
+    hotel_5star: 230
+    food: { street: "€5-7", restaurant_pp: "€15-22", beer: "€3-4" }
+    family: 7
+    teen: 6
+    insta: 7
+    nightlife: 5
+    vibe: mix
+    notes: "Mix Strand/Kultur. Englisch weit verbreitet. Etwas teurer als Griechenland."
+
+  - city: Malta
+    country: Malta
+    airport: MLA
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h10", typical_person: 180 }
+    hotel_4star: 120
+    hotel_5star: 220
+    food: { street: "€5-7", restaurant_pp: "€14-22", beer: "€3-4" }
+    family: 6
+    teen: 5
+    insta: 8
+    nightlife: 6
+    vibe: mix
+    notes: "Kultur+Party kompakt. Englisch Amtssprache. Wenig Sandstrände (Fels)."
+
+  # ═══════════════ LONG HAUL ═══════════════
+  - city: Dubai
+    country: UAE
+    airport: DXB
+    category: strand
+    direct_zrh: true
+    flight: { duration: "6h", typical_person: 450 }
+    hotel_4star: 120
+    hotel_5star: 250
+    food: { street: "€5-8", restaurant_pp: "€15-30", beer: "€8-10" }
+    family: 9
+    teen: 9
+    insta: 10
+    nightlife: 8
+    vibe: action
+    notes: "Alles grösser, höher, krasser. Teuer im Flug, Hotels ok. Sommer = 45°C."
+
+  - city: Bangkok
+    country: Thailand
+    airport: BKK
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "10h30", typical_person: 650 }
+    hotel_4star: 50
+    hotel_5star: 120
+    food: { street: "€1-3", restaurant_pp: "€4-8", beer: "€1.50" }
+    family: 6
+    teen: 9
+    insta: 8
+    nightlife: 10
+    vibe: action
+    notes: "Teurer Flug, SPOTTBILLIG vor Ort. Street-Food-Himmel. Chaotisch & geil."
+
+  - city: Bali
+    country: Indonesien
+    airport: DPS
+    category: strand
+    direct_zrh: false
+    flight: { duration: "16h (1-2 Stops)", typical_person: 800 }
+    hotel_4star: 50
+    hotel_5star: 150
+    food: { street: "€1-2", restaurant_pp: "€3-8", beer: "€2" }
+    family: 6
+    teen: 8
+    insta: 10
+    nightlife: 8
+    vibe: action
+    notes: "Teurer Flug, lächerlich billig vor Ort. Reisterrassen, Tempel, Surfen."
+
+  - city: Marrakesch
+    country: Marokko
+    airport: RAK
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "3h20", typical_person: 250 }
+    hotel_4star: 80
+    hotel_5star: 180
+    food: { street: "€2-4", restaurant_pp: "€6-12", beer: "€3-4" }
+    family: 6
+    teen: 7
+    insta: 10
+    nightlife: 5
+    vibe: action
+    notes: "Medina, Souks, Tajine. Günstig & exotisch. Riad = einzigartige Hotels."
+
+  - city: Mexiko (Cancún)
+    country: Mexiko
+    airport: CUN
+    category: strand
+    direct_zrh: false
+    flight: { duration: "13h (1 Stop)", typical_person: 700 }
+    hotel_4star: 100
+    hotel_5star: 250
+    food: { street: "€2-4", restaurant_pp: "€8-15", beer: "€2-3" }
+    family: 8
+    teen: 9
+    insta: 9
+    nightlife: 9
+    vibe: action
+    notes: "Karibik-Feeling, Maya-Ruinen, All-Inclusive. Teurer Flug, günstig vor Ort."
+
+  - city: Kapverden (Sal)
+    country: Kap Verde
+    airport: SID
+    category: strand
+    direct_zrh: true
+    flight: { duration: "6h", typical_person: 500 }
+    hotel_4star: 90
+    hotel_5star: 180
+    food: { street: "€3-5", restaurant_pp: "€8-15", beer: "€2-3" }
+    family: 7
+    teen: 6
+    insta: 7
+    nightlife: 4
+    vibe: ruhe
+    notes: "Karibik-Feeling näher dran. Windig (Surfer!). Wenig los ausser Strand."
+
+  - city: Tunesien (Hammamet)
+    country: Tunesien
+    airport: NBE
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h15", typical_person: 200 }
+    hotel_4star: 55
+    hotel_5star: 100
+    food: { street: "€2-3", restaurant_pp: "€5-10", beer: "€2" }
+    family: 7
+    teen: 5
+    insta: 5
+    nightlife: 4
+    vibe: ruhe
+    notes: "Günstigster Strand ab ZRH. All-Inclusive-Hotels. Wenig Action."
+
+  - city: Djerba
+    country: Tunesien
+    airport: DJE
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h20", typical_person: 220 }
+    hotel_4star: 55
+    hotel_5star: 100
+    food: { street: "€2-3", restaurant_pp: "€5-10", beer: "€2" }
+    family: 8
+    teen: 5
+    insta: 6
+    nightlife: 3
+    vibe: ruhe
+    notes: "Insel-Feeling, weisse Strände. Ruhiger als Hammamet. Familien-Favorit."
+
+  - city: Sousse
+    country: Tunesien
+    airport: MIR
+    category: strand
+    direct_zrh: true
+    flight: { duration: "2h10", typical_person: 200 }
+    hotel_4star: 50
+    hotel_5star: 95
+    food: { street: "€2-3", restaurant_pp: "€5-10", beer: "€2" }
+    family: 7
+    teen: 6
+    insta: 5
+    nightlife: 5
+    vibe: mix
+    notes: "Medina (UNESCO) + Strand. Etwas mehr los als Hammamet. Günstig."
+
+  # ═══════════════ ALGERIA ═══════════════
+  - city: Algier
+    country: Algerien
+    airport: ALG
+    category: stadt
+    direct_zrh: false
+    flight: { duration: "4h (1 Stop)", typical_person: 300 }
+    hotel_4star: 60
+    hotel_5star: 120
+    food: { street: "€1-3", restaurant_pp: "€4-8", beer: "nicht üblich" }
+    family: 5
+    teen: 5
+    insta: 6
+    nightlife: 3
+    vibe: ruhe
+    notes: "Weisse Stadt am Meer. Kasbah (UNESCO). Visum nötig. Wenig Touristen."
+
+  - city: Oran
+    country: Algerien
+    airport: ORN
+    category: strand
+    direct_zrh: false
+    flight: { duration: "4h30 (1 Stop)", typical_person: 320 }
+    hotel_4star: 55
+    hotel_5star: 110
+    food: { street: "€1-3", restaurant_pp: "€4-8", beer: "nicht üblich" }
+    family: 5
+    teen: 5
+    insta: 5
+    nightlife: 4
+    vibe: mix
+    notes: "Raï-Musik-Hauptstadt. Mittelmeer-Strände. Raue Schönheit. Visum nötig."
+
+  # ═══════════════ MOROCCO ═══════════════
+  - city: Casablanca
+    country: Marokko
+    airport: CMN
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "3h10", typical_person: 240 }
+    hotel_4star: 80
+    hotel_5star: 180
+    food: { street: "€2-4", restaurant_pp: "€6-12", beer: "€4-5" }
+    family: 6
+    teen: 6
+    insta: 7
+    nightlife: 6
+    vibe: action
+    notes: "Hassan-II-Moschee = spektakulär. Moderner als Marrakesch. Business-City."
+
+  - city: Agadir
+    country: Marokko
+    airport: AGA
+    category: strand
+    direct_zrh: true
+    flight: { duration: "3h30", typical_person: 230 }
+    hotel_4star: 70
+    hotel_5star: 140
+    food: { street: "€2-4", restaurant_pp: "€5-10", beer: "€3-4" }
+    family: 8
+    teen: 6
+    insta: 6
+    nightlife: 5
+    vibe: mix
+    notes: "Bester Strand Marokkos. Surfen, All-Inclusive. Günstig & familienfreundlich."
+
+  - city: Fes
+    country: Marokko
+    airport: FEZ
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "3h", typical_person: 240 }
+    hotel_4star: 65
+    hotel_5star: 140
+    food: { street: "€2-4", restaurant_pp: "€5-10", beer: "€3-4" }
+    family: 6
+    teen: 6
+    insta: 9
+    nightlife: 3
+    vibe: mix
+    notes: "Älteste Medina der Welt. 9000 Gassen. Authentischer als Marrakesch."
+
+  - city: Tanger
+    country: Marokko
+    airport: TNG
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h50", typical_person: 220 }
+    hotel_4star: 70
+    hotel_5star: 150
+    food: { street: "€2-4", restaurant_pp: "€5-12", beer: "€3-4" }
+    family: 6
+    teen: 7
+    insta: 7
+    nightlife: 7
+    vibe: action
+    notes: "Hafenstadt mit Kunst-Szene. Afrika+Europa-Mix. Cool & im Kommen."
+
+  # ═══════════════ CANARY ISLANDS ═══════════════
+  - city: Gran Canaria
+    country: Spanien
+    airport: LPA
+    category: strand
+    direct_zrh: true
+    flight: { duration: "4h15", typical_person: 280 }
+    hotel_4star: 100
+    hotel_5star: 200
+    food: { street: "€4-7", restaurant_pp: "€12-18", beer: "€2-3" }
+    family: 8
+    teen: 7
+    insta: 7
+    nightlife: 8
+    vibe: action
+    notes: "Maspalomas-Dünen. Party in Playa del Inglés. Mini-Kontinent. Ganzjahres-Ziel. ⚠️ Kein Direktflug ab ZRH: günstigster 1-Stop €331 (Vueling via Barcelona, 10h25)."
+
+  - city: Lanzarote
+    country: Spanien
+    airport: ACE
+    category: strand
+    direct_zrh: true
+    flight: { duration: "4h10", typical_person: 280 }
+    hotel_4star: 95
+    hotel_5star: 190
+    food: { street: "€4-7", restaurant_pp: "€12-18", beer: "€2-3" }
+    family: 7
+    teen: 6
+    insta: 9
+    nightlife: 5
+    vibe: ruhe
+    notes: "Vulkanlandschaft wie auf dem Mond. César Manrique. Ruhig & stylisch."
+
+  - city: Fuerteventura
+    country: Spanien
+    airport: FUE
+    category: strand
+    direct_zrh: true
+    flight: { duration: "4h15", typical_person: 280 }
+    hotel_4star: 90
+    hotel_5star: 180
+    food: { street: "€4-7", restaurant_pp: "€12-18", beer: "€2-3" }
+    family: 7
+    teen: 7
+    insta: 7
+    nightlife: 5
+    vibe: ruhe
+    notes: "Endlose Sandstrände. Surfer-Paradies. Wenig los = perfekt für Ruhe."
+
+  # ═══════════════ BALKAN HIDDEN GEMS ═══════════════
+  - city: Belgrad
+    country: Serbien
+    airport: BEG
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h40", typical_person: 160 }
+    hotel_4star: 65
+    hotel_5star: 130
+    food: { street: "€2-4", restaurant_pp: "€5-10", beer: "€1.50" }
+    family: 5
+    teen: 8
+    insta: 6
+    nightlife: 10
+    vibe: action
+    notes: "Beste Partystadt Osteuropas. Splavovi (Fluss-Clubs). SPOTTBILLIG."
+
+  - city: Novi Sad
+    country: Serbien
+    airport: BEG
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h40", typical_person: 160 }
+    hotel_4star: 55
+    hotel_5star: 110
+    food: { street: "€2-3", restaurant_pp: "€5-8", beer: "€1.50" }
+    family: 6
+    teen: 7
+    insta: 6
+    nightlife: 7
+    vibe: mix
+    notes: "EXIT-Festival. Donaublick, Festung. Noch günstiger als Belgrad."
+
+  - city: Sarajevo
+    country: Bosnien
+    airport: SJJ
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h35", typical_person: 180 }
+    hotel_4star: 55
+    hotel_5star: 110
+    food: { street: "€1-3", restaurant_pp: "€4-8", beer: "€1.50" }
+    family: 6
+    teen: 6
+    insta: 7
+    nightlife: 5
+    vibe: mix
+    notes: "Orient trifft Europa. Cevapi, Basar, Geschichte. Tief bewegend & günstig."
+
+  - city: Mostar
+    country: Bosnien
+    airport: OMO
+    category: stadt
+    direct_zrh: false
+    flight: { duration: "3h (1 Stop via SJJ)", typical_person: 240 }
+    hotel_4star: 45
+    hotel_5star: 90
+    food: { street: "€1-3", restaurant_pp: "€4-8", beer: "€1.50" }
+    family: 6
+    teen: 7
+    insta: 10
+    nightlife: 3
+    vibe: mix
+    notes: "Die Brücke. Instagram-Paradies. Kleine Stadt, grosser Wow-Effekt."
+
+  - city: Skopje
+    country: Nordmazedonien
+    airport: SKP
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h", typical_person: 170 }
+    hotel_4star: 50
+    hotel_5star: 100
+    food: { street: "€1-3", restaurant_pp: "€4-8", beer: "€1" }
+    family: 6
+    teen: 6
+    insta: 6
+    nightlife: 5
+    vibe: mix
+    notes: "Statue-Wahnsinn. Bizarre Architektur. Günstigstes Essen Europas."
+
+  - city: Ohrid
+    country: Nordmazedonien
+    airport: OHD
+    category: strand
+    direct_zrh: false
+    flight: { duration: "3h (1 Stop)", typical_person: 250 }
+    hotel_4star: 45
+    hotel_5star: 90
+    food: { street: "€1-3", restaurant_pp: "€4-8", beer: "€1" }
+    family: 8
+    teen: 5
+    insta: 8
+    nightlife: 3
+    vibe: ruhe
+    notes: "See + Berge + 365 Kirchen. UNESCO. Mazedoniens Perle. Spotbillig."
+
+  - city: Bukarest
+    country: Rumänien
+    airport: OTP
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h15", typical_person: 170 }
+    hotel_4star: 65
+    hotel_5star: 130
+    food: { street: "€2-4", restaurant_pp: "€6-12", beer: "€2" }
+    family: 6
+    teen: 7
+    insta: 6
+    nightlife: 8
+    vibe: action
+    notes: "Paris des Ostens. Riesiger Parlamentspalast. Günstig & lebendig."
+
+  - city: Brasov (Transsilvanien)
+    country: Rumänien
+    airport: OTP
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h15", typical_person: 170 }
+    hotel_4star: 60
+    hotel_5star: 120
+    food: { street: "€2-4", restaurant_pp: "€5-10", beer: "€1.50" }
+    family: 8
+    teen: 7
+    insta: 8
+    nightlife: 5
+    vibe: mix
+    notes: "Dracula-Schloss. Karpaten-Wandern. Mittelalter-Flair. Super günstig."
+
+  - city: Tiflis (Tbilisi)
+    country: Georgien
+    airport: TBS
+    category: stadt
+    direct_zrh: false
+    flight: { duration: "6h (1 Stop)", typical_person: 350 }
+    hotel_4star: 50
+    hotel_5star: 120
+    food: { street: "€1-3", restaurant_pp: "€4-10", beer: "€1.50" }
+    family: 6
+    teen: 7
+    insta: 8
+    nightlife: 8
+    vibe: action
+    notes: "DER Geheimtipp. Wein, Khinkali, Schwefelbäder. Extrem günstig vor Ort."
+
+  - city: Batumi
+    country: Georgien
+    airport: BUS
+    category: strand
+    direct_zrh: false
+    flight: { duration: "6h30 (1 Stop)", typical_person: 380 }
+    hotel_4star: 55
+    hotel_5star: 130
+    food: { street: "€1-3", restaurant_pp: "€4-10", beer: "€1.50" }
+    family: 7
+    teen: 7
+    insta: 7
+    nightlife: 7
+    vibe: mix
+    notes: "Schwarzes Meer + futuristische Architektur. Georgiens Miami. Günstig."
+
+  # ═══════════════ EXTRA SPAIN ═══════════════
+  - city: Menorca
+    country: Spanien
+    airport: MAH
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h50", typical_person: 190 }
+    hotel_4star: 130
+    hotel_5star: 260
+    food: { street: "€5-8", restaurant_pp: "€14-22", beer: "€3-4" }
+    family: 9
+    teen: 4
+    insta: 8
+    nightlife: 2
+    vibe: ruhe
+    notes: "Ruhige Schwester Mallorcas. Calas, Natur, null Party. Familien-Himmel."
+
+  - city: Formentera
+    country: Spanien
+    airport: IBZ
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h55", typical_person: 200 }
+    hotel_4star: 200
+    hotel_5star: 450
+    food: { street: "€7-10", restaurant_pp: "€20-35", beer: "€5-6" }
+    family: 6
+    teen: 7
+    insta: 10
+    nightlife: 5
+    vibe: ruhe
+    notes: "Karibik Europas. Türkises Wasser. Teuer aber atemberaubend. Ibizas hippe Schwester."
+
+  - city: Valencia
+    country: Spanien
+    airport: VLC
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h", typical_person: 160 }
+    hotel_4star: 110
+    hotel_5star: 220
+    food: { street: "€4-7", restaurant_pp: "€12-20", beer: "€2-3" }
+    family: 8
+    teen: 7
+    insta: 8
+    nightlife: 7
+    vibe: action
+    notes: "Paella-Heimat. Ciudad de las Artes. Günstiger als Barcelona. Strand inklusive."
+
+  - city: Sevilla
+    country: Spanien
+    airport: SVQ
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h30", typical_person: 180 }
+    hotel_4star: 110
+    hotel_5star: 230
+    food: { street: "€4-6", restaurant_pp: "€12-20", beer: "€2-3" }
+    family: 7
+    teen: 7
+    insta: 9
+    nightlife: 8
+    vibe: action
+    notes: "Flamenco, Tapas, Alcázar. Heiss im Sommer (40°C+). Magisch."
+
+  - city: Malaga
+    country: Spanien
+    airport: AGP
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "2h25", typical_person: 180 }
+    hotel_4star: 110
+    hotel_5star: 220
+    food: { street: "€4-6", restaurant_pp: "€10-18", beer: "€2-3" }
+    family: 7
+    teen: 7
+    insta: 7
+    nightlife: 7
+    vibe: action
+    notes: "Picasso-Stadt. Strand + Kultur + Flughafen. Perfekt für Kurztrip."
+
+  # ═══════════════ SLOVENIA / SLOVAKIA ═══════════════
+  - city: Bled
+    country: Slowenien
+    airport: LJU
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h05", typical_person: 160 }
+    hotel_4star: 130
+    hotel_5star: 280
+    food: { street: "€5-7", restaurant_pp: "€12-20", beer: "€3" }
+    family: 8
+    teen: 5
+    insta: 10
+    nightlife: 2
+    vibe: ruhe
+    notes: "Märchensee mit Inselkirche. Cremeschnitte. Teuer aber magisch."
+
+  - city: Piran
+    country: Slowenien
+    airport: LJU
+    category: strand
+    direct_zrh: true
+    flight: { duration: "1h05", typical_person: 160 }
+    hotel_4star: 120
+    hotel_5star: 250
+    food: { street: "€5-7", restaurant_pp: "€12-20", beer: "€3" }
+    family: 7
+    teen: 5
+    insta: 9
+    nightlife: 3
+    vibe: ruhe
+    notes: "Venedig in Miniatur. Adria-Flair. Salzpfannen. Romantisch."
+
+  - city: Bratislava
+    country: Slowakei
+    airport: BTS
+    category: stadt
+    direct_zrh: true
+    flight: { duration: "1h15", typical_person: 150 }
+    hotel_4star: 70
+    hotel_5star: 140
+    food: { street: "€3-5", restaurant_pp: "€8-14", beer: "€1.50-2" }
+    family: 6
+    teen: 7
+    insta: 6
+    nightlife: 7
+    vibe: mix
+    notes: "Klein aber fein. Donau-Blick. 60km von Wien. Günstiger Städtetrip."

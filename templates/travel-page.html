@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DESTINATION DATES — Travel Agent</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, Helvetica, Arial, sans-serif; background: #f5f5f5; color: #1a1a1a; line-height: 1.6; }
+.container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+.header { background: linear-gradient(135deg, #f97316, #ef4444); color: white; padding: 40px; border-radius: 12px; margin-bottom: 24px; text-align: center; }
+.header h1 { font-size: 2em; margin-bottom: 8px; }
+.header p { opacity: 0.9; }
+.card { background: white; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.card h2 { color: #f97316; margin-bottom: 16px; font-size: 1.3em; border-bottom: 2px solid #f97316; padding-bottom: 8px; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
+th { background: #f97316; color: white; padding: 10px 6px; text-align: left; font-weight: 600; font-size:0.85em; }
+td { padding: 8px 6px; border-bottom: 1px solid #eee; font-size:0.85em; }
+tr:hover { background: #fff7ed; }
+tr.winner { background: #d1fae5 !important; }
+tr.winner td { font-weight: 600; }
+.price { font-weight: 700; color: #059669; }
+.gem { color: #7c3aed; font-weight: 600; }
+.badge { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 0.7em; font-weight: 700; }
+.badge-green { background: #d1fae5; color: #065f46; }
+.badge-red { background: #fee2e2; color: #991b1b; }
+.badge-purple { background: #ede9fe; color: #5b21b6; }
+.winner-banner { background: #d1fae5; border: 2px solid #059669; border-radius: 8px; padding: 20px; margin-bottom: 24px; text-align: center; }
+.flex-save { background: #fef3c7; border: 2px solid #f59e0b; border-radius: 8px; padding: 16px; margin-bottom: 20px; }
+.tips li { margin-bottom: 8px; }
+.itinerary li { padding: 8px 0; border-bottom: 1px dashed #e5e7eb; }
+.itinerary li:last-child { border-bottom: none; }
+.footer { text-align: center; color: #9ca3af; font-size: 0.85em; margin-top: 40px; padding: 20px; }
+@media print { body { background: white; } .card { box-shadow: none; border: 1px solid #e5e7eb; } .header { background: #f97316 !important; -webkit-print-color-adjust: exact; } .noprint, .noprint * { display: none !important; visibility: hidden !important; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- HEADER -->
+<div class="header">
+<h1>EMOJI DESTINATION — DATES</h1>
+<p>TRAVELERS • TRIP_TYPE • Preise in CURRENCY • Google Flights/Hotels (DATE)</p>
+<p style="margin-top:12px">
+<a href="javascript:window.print()" class="noprint" style="display:inline-block;background:white;color:#f97316;padding:8px 20px;border-radius:6px;text-decoration:none;font-weight:700;font-size:0.9em">📕 Als PDF speichern</a>
+</p>
+</div>
+
+<!-- AUSWAHL-BANNER -->
+<div class="winner-banner">
+<h2>🏆 So wurde DESTINATION ausgewählt</h2>
+<p>NUMBER Ziele live verglichen. DESTINATION = REASON.</p>
+</div>
+
+<!-- VERGLEICHSTABELLE -->
+<div class="card">
+<h2>🌍 Alle NUMBER Ziele im Vergleich (MONTH YEAR, DURATION Tage, Direktflug, CURRENCY)</h2>
+<table>
+<tr><th>#</th><th>Ziel</th><th>✈️ CURRENCY p.P.</th><th>Dauer</th><th>☀️</th><th>Mix</th><th>Action</th><th>Kultur</th><th>Urteil</th></tr>
+<!-- COMPARISON_ROWS -->
+</table>
+<p style="margin-top:12px;font-size:0.85em;color:#6b7280">HINWEIS_TEXT</p>
+</div>
+
+<!-- PRO/CONTRA PRO DESTINATION -->
+<!-- PROCON_START -->
+<div class="card">
+<h2>✅❌ Pro & Contra pro Destination</h2>
+<!-- PROCON_ROWS -->
+</div>
+<!-- PROCON_END -->
+
+<!-- WARUM GEWONNEN -->
+<div class="card">
+<h2>🧠 Warum DESTINATION gewonnen hat</h2>
+<ul class="tips">
+<!-- REASONS_LIST -->
+</ul>
+</div>
+
+<!-- FLEXIBLE DATEN (falls zutreffend) -->
+<div class="flex-save">
+<h3 style="color:#92400e;margin-bottom:8px">💡 Flexible Daten — SAVINGS gespart!</h3>
+<p>FLEX_DATES_TEXT</p>
+</div>
+
+<!-- BUDGET: 3 VARIANTEN -->
+<div class="card">
+<h2>💰 Budget-Übersicht — Drei Varianten</h2>
+<div style="display:flex;gap:20px;margin-bottom:20px">
+<div style="flex:1;background:#f0fdf4;border:2px solid #059669;border-radius:8px;padding:16px">
+<h3 style="color:#065f46;margin-bottom:8px">🟢 Spar</h3>
+<!-- BUDGET_SPAR -->
+</div>
+<div style="flex:1;background:#fef3c7;border:2px solid #f59e0b;border-radius:8px;padding:16px">
+<h3 style="color:#92400e;margin-bottom:8px">🟡 Mittel</h3>
+<!-- BUDGET_MITTEL -->
+</div>
+<div style="flex:1;background:#fee2e2;border:2px solid #dc2626;border-radius:8px;padding:16px">
+<h3 style="color:#991b1b;margin-bottom:8px">🔴 Komfort</h3>
+<!-- BUDGET_KOMFORT -->
+</div>
+</div>
+</div>
+
+<!-- FLÜGE -->
+<div class="card">
+<h2>✈️ Flüge — ORIGIN ↔ DEST</h2>
+<table>
+<tr><th>Flug</th><th>Preis p.P. (CURRENCY)</th><th>Hinflug</th><th>Rückflug</th><th>Dauer</th><th>Typ</th></tr>
+<!-- FLIGHT_ROWS -->
+</table>
+</div>
+
+<!-- HOTELS -->
+<div class="card">
+<h2>🏨 NUMBER Hotels — ab MIN_STARS★, mit Lage & Bewertung</h2>
+<table>
+<tr><th>Hotel</th><th>★</th><th>Bewertung</th><th>CURRENCY/N</th><th>CURRENCY/7N</th><th>Pool</th><th>Spa</th><th>Lage</th><th>Empfehlung</th></tr>
+<!-- HOTEL_ROWS -->
+</table>
+</div>
+
+<!-- ITINERARY -->
+<div class="card">
+<h2>🗺️ Reiseprogramm — DURATION Tage</h2>
+<ol class="itinerary">
+<!-- ITINERARY_ITEMS -->
+</ol>
+</div>
+
+<!-- TIPPS -->
+<div class="card">
+<h2>💡 Tipps & Tricks</h2>
+<ul class="tips">
+<!-- TIPS_ITEMS -->
+</ul>
+</div>
+
+<div class="footer">
+<p>Erstellt von Hermes Agent • Google Flights/Hotels (DATE) • wttr.in</p>
+<p style="font-size:0.8em;color:#9ca3af">Alle Preise sind nicht verbindlich. Es handelt sich um bestmögliche Approximationswerte gemäss den zum Zeitpunkt der Abfrage verfügbaren Informationen. Vor Buchung Preise direkt beim Anbieter prüfen.</p>
+</div>
+
+</div>
+</body>
+</html>
