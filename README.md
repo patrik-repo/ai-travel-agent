@@ -1,4 +1,4 @@
-# 🌍 AI Travel Agent
+# 🌍 AI Travel Agent - for Hermes Agent
 
 **92 destinations. 12 questions. 1 HTML page.**
 
